@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Power of The Trilogy</title>
+    <style>
+        body {
+            background: linear-gradient(180deg, #1a1a2e 0%, #2e2e4e 100%);
+            color: #f5e050;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        /* Header Section */
+        .header h1 {
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 1.2;
+            margin: 0 0 20px;
+            text-transform: uppercase;
+        }
+        .header h2 {
+            font-size: 24px;
+            color: #ffffff;
+            font-weight: normal;
+            line-height: 1.4;
+            margin: 0 0 20px;
+        }
+        .header p {
+            font-size: 16px;
+            color: #ffffff;
+            line-height: 1.6;
+            margin: 0 0 30px;
+        }
+        .cta-button {
+            background-color: transparent;
+            border: 2px solid #f5e050;
+            color: #f5e050;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #f5e050;
+            color: #1a1a2e;
+        }
+        .cta-button span {
+            color: #ffffff;
+            font-weight: normal;
+        }
+        /* Books Section */
+        .books-section {
+            margin-top: 50px;
+        }
+        .books-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .books-section p {
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 30px;
+        }
+        .books-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .book {
+            width: 30%;
+            text-align: center;
+        }
+        .book img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .book h3 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #f5e050;
+            margin-bottom: 10px;
+        }
+        .book p {
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 1.5;
+            margin: 0;
+        }
+        /* Footer CTA */
+        .footer-cta {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Unlock the Secrets of Your Mind, Wealth, and Manifestation Power!</h1>
+            <h2>Discover the Hidden Knowledge and Master the Science of Abundance, Psychic Vision, and Manifestation Symbols Today!</h2>
+            <p>Ready to tap into your full potential? This exclusive eBook trilogy is designed to give you everything you need to awaken your inner power, manifest wealth, and master the sacred arts of abundance:</p>
+            <a href="#" class="cta-button">Get Instant Access Now <span>– Limited Time Offer</span></a>
+        </div>
 
+        <!-- Books Section -->
+        <div class="books-section">
+            <h2>The Power of The Trilogy</h2>
+            <p>Three Ground-Breaking eBooks for One Life-Changing Price</p>
+            <p>This exclusive collection contains three powerful, transformative books designed to elevate every aspect of your life: from psychic vision and intuition to attracting abundance and mastering manifestation symbols.</p>
+            <div class="books-grid">
+                <div class="book">
+                    <!-- Placeholder for book cover: Image of a book with a glowing eye on a dark background -->
+                    <img src="third-eye-awakening-mastery.jpg" alt="Third Eye Awakening Mastery">
+                    <h3>Third Eye Awakening Mastery</h3>
+                    <p>Unlock the full power of your Third Eye and elevate your psychic abilities. Learn to see beyond the physical realm and access turgid destinies to guide your decisions.</p>
+                    <p>(Includes practical exercises to activating your psychic vision and uncover inner wisdom.)</p>
+                </div>
+                <div class="book">
+                    <!-- Placeholder for book cover: Image of a book with a glowing golden sphere on a dark background -->
+                    <img src="wealth-frequency-blueprint.jpg" alt="Wealth Frequency Blueprint">
+                    <h3>Wealth Frequency Blueprint</h3>
+                    <p>Align with the frequency of wealth abundance. Learn the science behind wealth attraction, and how to raise your vibration to manifest financial success effortlessly.</p>
+                    <p>(Includes manifestation techniques: sound frequency, and daily practices to attract wealth.)</p>
+                </div>
+                <div class="book">
+                    <!-- Placeholder for book cover: Image of a book with a triangular symbol and eye on a dark background -->
+                    <img src="sacred-symbols-manifestation.jpg" alt="Sacred Symbols Manifestation">
+                    <h3>Sacred Symbols Manifestation</h3>
+                    <p>Discover the ancient art of sacred symbols and how to use them to manifest your desires. Unlock the hidden meanings and harness their energy for transformation.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer CTA -->
+        <div class="footer-cta">
+            <a href="#" class="cta-button">Get Instant Access Now <span>– Transform Your Life</span></a>
+        </div>
+    </div>
+</body>
+</html>
