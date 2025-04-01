@@ -39,26 +39,6 @@
             line-height: 1.6;
             margin: 0 0 30px;
         }
-        .cta-button {
-            background-color: transparent;
-            border: 2px solid #f5e050;
-            color: #f5e050;
-            padding: 12px 30px;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
-            display: inline-block;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .cta-button:hover {
-            background-color: #f5e050;
-            color: #1a1a2e;
-        }
-        .cta-button span {
-            color: #ffffff;
-            font-weight: normal;
-        }
         /* Books Section */
         .books-section {
             margin-top: 50px;
@@ -103,6 +83,75 @@
         .footer-cta {
             margin-top: 40px;
         }
+        /* Mailchimp Form Styling */
+        #mc_embed_shell {
+            margin: 30px 0;
+        }
+        #mc_embed_signup {
+            background: transparent !important; /* Override Mailchimp's white background */
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            width: 100% !important; /* Override Mailchimp's 600px width */
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid #f5e050;
+            border-radius: 5px;
+        }
+        #mc_embed_signup h2 {
+            color: #f5e050;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        #mc_embed_signup .indicates-required {
+            color: #ffffff;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        #mc_embed_signup .mc-field-group {
+            margin-bottom: 20px;
+        }
+        #mc_embed_signup label {
+            color: #ffffff;
+            font-size: 16px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        #mc_embed_signup input[type="email"] {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #f5e050;
+            border-radius: 5px;
+            background: #2e2e4e;
+            color: #ffffff;
+        }
+        #mc_embed_signup input[type="email"]::placeholder {
+            color: #cccccc;
+        }
+        #mc_embed_signup .button {
+            background-color: #f5e050;
+            color: #1a1a2e;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #mc_embed_signup .button:hover {
+            background-color: #e0cb3a;
+        }
+        #mc_embed_signup .clear {
+            text-align: center;
+        }
+        #mce-responses .response {
+            color: #ffffff;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -112,7 +161,47 @@
             <h1>Unlock the Secrets of Your Mind, Wealth, and Manifestation Power!</h1>
             <h2>Discover the Hidden Knowledge and Master the Science of Abundance, Psychic Vision, and Manifestation Symbols Today!</h2>
             <p>Ready to tap into your full potential? This exclusive eBook trilogy is designed to give you everything you need to awaken your inner power, manifest wealth, and master the sacred arts of abundance:</p>
-            <a href="#" class="cta-button">Get Instant Access Now <span>– Limited Time Offer</span></a>
+            <!-- Replaced CTA with Mailchimp Form -->
+            <div id="mc_embed_shell">
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+                <div id="mc_embed_signup">
+                    <form action="https://gmail.us16.list-manage.com/subscribe/post?u=c085e0f9bc14cdbab3289e1cd&id=4dc40c26b7&f_id=009e20e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                        <div id="mc_embed_signup_scroll">
+                            <h2>Get Instant Access Now</h2>
+                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display: none;"></div>
+                                <div class="response" id="mce-success-response" style="display: none;"></div>
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_c085e0f9bc14cdbab3289e1cd_4dc40c26b7" tabindex="-1" value="">
+                            </div>
+                            <div class="clear">
+                                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+                <script type="text/javascript">
+                    (function($) {
+                        window.fnames = new Array();
+                        window.ftypes = new Array();
+                        fnames[0]='EMAIL';ftypes[0]='email';
+                        fnames[1]='FNAME';ftypes[1]='text';
+                        fnames[2]='LNAME';ftypes[2]='text';
+                        fnames[3]='ADDRESS';ftypes[3]='address';
+                        fnames[4]='PHONE';ftypes[4]='phone';
+                        fnames[5]='BIRTHDAY';ftypes[5]='birthday';
+                        fnames[6]='COMPANY';ftypes[6]='text';
+                    }(jQuery));
+                    var $mcj = jQuery.noConflict(true);
+                </script>
+            </div>
         </div>
 
         <!-- Books Section -->
@@ -146,7 +235,47 @@
 
         <!-- Footer CTA -->
         <div class="footer-cta">
-            <a href="#" class="cta-button">Get Instant Access Now <span>– Transform Your Life</span></a>
+            <!-- Replaced CTA with Mailchimp Form -->
+            <div id="mc_embed_shell">
+                <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+                <div id="mc_embed_signup">
+                    <form action="https://gmail.us16.list-manage.com/subscribe/post?u=c085e0f9bc14cdbab3289e1cd&id=4dc40c26b7&f_id=009e20e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                        <div id="mc_embed_signup_scroll">
+                            <h2>Get Instant Access Now</h2>
+                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display: none;"></div>
+                                <div class="response" id="mce-success-response" style="display: none;"></div>
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_c085e0f9bc14cdbab3289e1cd_4dc40c26b7" tabindex="-1" value="">
+                            </div>
+                            <div class="clear">
+                                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+                <script type="text/javascript">
+                    (function($) {
+                        window.fnames = new Array();
+                        window.ftypes = new Array();
+                        fnames[0]='EMAIL';ftypes[0]='email';
+                        fnames[1]='FNAME';ftypes[1]='text';
+                        fnames[2]='LNAME';ftypes[2]='text';
+                        fnames[3]='ADDRESS';ftypes[3]='address';
+                        fnames[4]='PHONE';ftypes[4]='phone';
+                        fnames[5]='BIRTHDAY';ftypes[5]='birthday';
+                        fnames[6]='COMPANY';ftypes[6]='text';
+                    }(jQuery));
+                    var $mcj = jQuery.noConflict(true);
+                </script>
+            </div>
         </div>
     </div>
 </body>
