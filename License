@@ -1,0 +1,21 @@
+
+4. Click **Commit new file** to save it.  
+
+---
+
+### **2. Create a `.gitignore` File**  
+A **.gitignore** file prevents unnecessary files from being uploaded to GitHub.  
+
+#### **Steps:**  
+1. In your GitHub repository, click **"Add file" > "Create new file"**.  
+2. Name it **`.gitignore`**.  
+3. Copy and paste the following:  
+
+```plaintext
+# Ignore unnecessary files
+.DS_Store
+node_modules/
+dist/
+*.log
+.env
+.vscode/
