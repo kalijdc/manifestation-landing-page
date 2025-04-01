@@ -3,38 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unlock Your Mind & Wealth</title>
+    <title>Manifestation Power</title>
     <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
     <style>
         body {
-            background-color: #1a1212;
-            color: #f1c40f;
+            background-color: #1a1414;
+            color: #f5d778;
             font-family: Arial, sans-serif;
             text-align: center;
-            padding: 20px;
         }
         .container {
             max-width: 800px;
-            margin: auto;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 32px;
         }
         .cta-button {
-            display: inline-block;
-            background-color: transparent;
-            border: 2px solid #f1c40f;
-            color: #f1c40f;
+            background-color: #000;
+            color: #f5d778;
             padding: 10px 20px;
             font-size: 18px;
-            margin-top: 20px;
+            border: 2px solid #f5d778;
+            cursor: pointer;
             text-decoration: none;
-            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
         }
-        .cta-button:hover {
-            background-color: #f1c40f;
-            color: #1a1212;
-        }
-        .books img {
-            width: 30%;
+        .book-section img {
+            width: 100px;
             margin: 10px;
+        }
+        #mc_embed_signup {
+            background:#fff;
+            clear:left;
+            font:14px Helvetica,Arial,sans-serif;
+            width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -42,33 +50,44 @@
     <div class="container">
         <h1>Unlock the Secrets of Your Mind, Wealth, and Manifestation Power!</h1>
         <p>Discover the Hidden Knowledge and Master the Science of Abundance, Psychic Vision, and Manifestation Symbols Today!</p>
-        <a href="#mc_embed_signup" class="cta-button">Enter your email to receive a free chapter of ‘Third Eye Awakening Mastery’ and exclusive manifestation tips!</a>
+        <a href="#mc_embed_signup" class="cta-button">Get Instant Access Now - Limited Time Offer</a>
         
         <h2>The Power of The Trilogy</h2>
         <p>Three Groundbreaking eBooks for One Life-Changing Price</p>
-        <div class="books">
-            <img src="book1.jpg" alt="Third Eye Awakening Mastery">
-            <img src="book2.jpg" alt="Wealth Frequency Blueprint">
-            <img src="book3.jpg" alt="Sacred Symbols Manifestation">
+        <div class="book-section">
+            <img src="third-eye-awakening.jpg" alt="Third Eye Awakening Mastery">
+            <img src="wealth-frequency.jpg" alt="Wealth Frequency Blueprint">
+            <img src="sacred-symbols.jpg" alt="Sacred Symbols Manifestation">
         </div>
-    </div>
-    
-    <!-- Mailchimp Embed Form -->
-    <div id="mc_embed_shell">
+        
         <div id="mc_embed_signup">
             <form action="https://gmail.us16.list-manage.com/subscribe/post?u=c085e0f9bc14cdbab3289e1cd&amp;id=4dc40c26b7&amp;f_id=009e20e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                <div id="mc_embed_signup_scroll"><h2>Get Instant Access Now</h2>
-                    <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
-                        <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required>
-                    </div>
-                    <div class="clear">
-                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-                    </div>
+                <h2>Get Instant Access Now</h2>
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                </div>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_c085e0f9bc14cdbab3289e1cd_4dc40c26b7" tabindex="-1" value="">
+                </div>
+                <div class="clear">
+                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
                 </div>
             </form>
         </div>
-        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-        <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     </div>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script type="text/javascript">
+        (function($) {
+            window.fnames = new Array(); 
+            window.ftypes = new Array();
+            fnames[0]='EMAIL';ftypes[0]='email';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+    </script>
 </body>
 </html>
